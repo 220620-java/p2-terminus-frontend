@@ -373,13 +373,15 @@ p {
     padding: 0.5em;
     border-radius: 0.3em;
     height: auto;
-    padding: 1.5rem;
     width: 100%;
     margin-top: 1em;
-    display: inline-grid;
     width: 100%;
     transition: all ease 0.3s;
     animation: loadLeft .2s ease 0s 1 normal forwards;
+}
+
+.itemPrice {
+    font-size: 1.3rem;
 }
 
 .cartItem::before {
