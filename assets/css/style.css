@@ -354,28 +354,51 @@ p {
 }
 
 .removeBtn {
-    background-color: #bb7b7b;
+    background-color: #475769ad;
     padding: 3px 5px;
     display: inline-block;
     margin: 0.5em;
     border-radius: 0.2em;
-    border-bottom: 2px solid #f68282;
-    border-left: 2px solid #f68282;
+    border-bottom: 2px solid #4d5a69;
+    border-left: 2px solid #4d5a69;
     font-size: 0.8rem;
     float: right;
     margin-top: -35px;
 }
 
 .cartItem {
-    border-radius: 0.3rem;
+    position: relative;
     background-image: linear-gradient(151deg, rgba(36, 52, 71, 1) 0%, rgba(0, 0, 0, 0) 85%);
+    z-index: 1;
+    padding: 0.5em;
+    border-radius: 0.3em;
     height: auto;
-    padding: 0.5rem;
+    padding: 1.5rem;
     width: 100%;
-    border: 1px #2f4d70 solid;
     margin-top: 1em;
+    display: inline-grid;
+    width: 100%;
     transition: all ease 0.3s;
-    animation: load .2s ease 0s 1 normal forwards;
+    animation: loadLeft .2s ease 0s 1 normal forwards;
+}
+
+.cartItem::before {
+    position: absolute;
+    border-radius: 0.3em;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(29deg, rgba(36, 52, 71, 1) 0%, rgba(0, 0, 0, 0) 78%) !important;
+    z-index: -1;
+    transition: opacity .2s linear;
+    opacity: 0;
+}
+
+.cartItem:hover::before {
+    border-radius: 0.3em;
+    opacity: 1;
 }
 
 #orderContainer {
