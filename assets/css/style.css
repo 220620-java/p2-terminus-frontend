@@ -353,6 +353,31 @@ p {
     animation: load .2s ease 0s 1 normal forwards;
 }
 
+.removeBtn {
+    background-color: #bb7b7b;
+    padding: 3px 5px;
+    display: inline-block;
+    margin: 0.5em;
+    border-radius: 0.2em;
+    border-bottom: 2px solid #f68282;
+    border-left: 2px solid #f68282;
+    font-size: 0.8rem;
+    float: right;
+    margin-top: -35px;
+}
+
+.cartItem {
+    border-radius: 0.3rem;
+    background-image: linear-gradient(151deg, rgba(36, 52, 71, 1) 0%, rgba(0, 0, 0, 0) 85%);
+    height: auto;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px #2f4d70 solid;
+    margin-top: 1em;
+    transition: all ease 0.3s;
+    animation: load .2s ease 0s 1 normal forwards;
+}
+
 #orderContainer {
     animation: load .2s ease 0s 1 normal forwards;
 }
