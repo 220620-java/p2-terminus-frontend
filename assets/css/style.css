@@ -133,7 +133,6 @@ a {
 }
 
 .search {
-    margin-bottom: 7px;
     font-size: 20px;
     padding: 7.5px 10px 7.5px 0;
     font-weight: 700;
@@ -141,7 +140,7 @@ a {
     order: 1;
     position: relative;
     display: block;
-    width: auto;
+    width: 85%;
 }
 
 .item {
