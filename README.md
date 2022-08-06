@@ -1,7 +1,6 @@
-# Team Terminus
+![alt text](http://terminus-front.s3-website-us-east-1.amazonaws.com/assets/images/logo.png)
 ## Project 2 - Terminus Store Front End
 
-![alt text](https://raw.githubusercontent.com/220620-java/p2-terminus-backend/main/ERD.png)
 
 ## S3 Deployment
 http://terminus-front.s3-website-us-east-1.amazonaws.com/
