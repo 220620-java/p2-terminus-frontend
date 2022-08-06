@@ -366,16 +366,20 @@ p {
 }
 
 .removeBtn {
-    background-color: #475769ad;
+    background-color: #47576966;
     padding: 3px 5px;
     display: inline-block;
     margin: 0.5em;
     border-radius: 0.2em;
     border-bottom: 2px solid #4d5a69;
-    border-left: 2px solid #4d5a69;
     font-size: 0.8rem;
     float: right;
     margin-top: -35px;
+    transition: all .2s ease;
+}
+
+.removeBtn {
+    opacity: 0.8
 }
 
 .cartItem {
