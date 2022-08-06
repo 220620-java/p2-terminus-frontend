@@ -138,6 +138,10 @@ a {
     padding: 7.5px 10px 7.5px 0;
     font-weight: 700;
     font-style: italic;
+    order: 1;
+    position: relative;
+    display: block;
+    width: auto;
 }
 
 .item {
