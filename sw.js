@@ -1,7 +1,7 @@
 self.addEventListener('install', function(e) {
     e.waitUntil(
 
-        caches.open('toneweb').then(function(cache) {
+        caches.open('terminus').then(function(cache) {
             return cache.addAll([
 
 
@@ -20,12 +20,15 @@ self.addEventListener('install', function(e) {
             ]);
         })
     );
+
+    console.log('cache stored')
 });
 
 self.addEventListener('fetch', function(event) {
     event.respondWith(
         caches.match(event.request).then(function(response) {
             return response || fetch(event.request);
+            console.log('cache fetched')
         })
     );
 });
