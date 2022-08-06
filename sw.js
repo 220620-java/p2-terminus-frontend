@@ -1,10 +1,7 @@
 self.addEventListener('install', function(e) {
     e.waitUntil(
-
         caches.open('terminus').then(function(cache) {
             return cache.addAll([
-
-
                 '/',
                 'assets/css/style.css',
                 'assets/html/login.html',
@@ -20,15 +17,14 @@ self.addEventListener('install', function(e) {
             ]);
         })
     );
-
     console.log('cache stored')
 });
 
 self.addEventListener('fetch', function(event) {
     event.respondWith(
         caches.match(event.request).then(function(response) {
-            return response || fetch(event.request);
             console.log('cache fetched')
+            return response || fetch(event.request);
         })
     );
 });
