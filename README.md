@@ -12,7 +12,8 @@ Terminus Database deployed on AWS RDS
 The Terminus Store backend was developed using the Java Spring Framework and is deployed through the AWS CodPipeline where the project code is reviewed by Sonar Cloud where it is inspected for code quality and security. The project is compiled using AWS CodeBuild and deployed onto an [Amazon Elastic Beanstalk](http://p2terminusoms-env.eba-fcyktpid.us-east-1.elasticbeanstalk.com/).
 
 ## S3 CodePipeline
-The front end of the project was deployed on an [AWS S3](http://terminus-front.s3-website-us-east-1.amazonaws.com/) Bucket while also utilizing the AWS CodePipeline for automatic deployment.
+The front end of the project was deployed on an AWS S3 Bucket while also utilizing the AWS CodePipeline for automatic deployment.
+(http://terminus-front.s3-website-us-east-1.amazonaws.com/)
 
 # Team Terminus
 * [Devin Abreu](https://github.com/devinabreu10)
