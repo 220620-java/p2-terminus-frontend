@@ -13,7 +13,7 @@ The Terminus Store backend was developed using the Java Spring Framework and is 
 
 ## S3 CodePipeline
 The front end of the project was deployed on an AWS S3 Bucket while also utilizing the AWS CodePipeline for automatic deployment.
-[Terminus Store S3](http://terminus-front.s3-website-us-east-1.amazonaws.com/)
+* [Terminus Store S3](http://terminus-front.s3-website-us-east-1.amazonaws.com/)
 
 # Team Terminus
 * [Devin Abreu](https://github.com/devinabreu10)
