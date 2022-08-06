@@ -366,7 +366,7 @@ p {
 }
 
 .removeBtn {
-    background-color: #47576966;
+    background-color: #47576989;
     padding: 3px 5px;
     display: inline-block;
     margin: 0.5em;
@@ -379,7 +379,7 @@ p {
 }
 
 .removeBtn:hover {
-    opacity: 0.8
+    opacity: 0.8 !important;
 }
 
 .cartItem {
