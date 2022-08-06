@@ -820,6 +820,23 @@ button,
     .mainDiv {
         width: 100%;
     }
+    #storeBtn {
+        float: right;
+    }
+    .easyScreenBottom {
+        text-align: unset !important;
+    }
+    .easyScreenTop {
+        margin-left: unset !important;
+        text-align: unset !important;
+    }
+    #topLoginBtn {
+        margin-right: unset !important;
+    }
+}
+
+#topLoginBtn {
+    margin-right: 0.8em;
 }
 
 
