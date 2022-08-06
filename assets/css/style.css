@@ -378,7 +378,7 @@ p {
     transition: all .2s ease;
 }
 
-.removeBtn {
+.removeBtn:hover {
     opacity: 0.8
 }
 
