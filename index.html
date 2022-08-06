@@ -1,3 +1,10 @@
+<!--
+    Team Terminus
+
+    @authors
+        -Tony Wiedman
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,10 +15,11 @@
     <meta name="author" content="Team Terminus">
     <meta name="description" content="A store with some cool products.">
     <meta name="keywords" content="terminus, store, java, spring, boot, mvc, jpa, h2, aws, rds">
+
+    <!-- PWA -->
     <link rel="manifest" href="manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#19202b" />
-
     <link rel="shortcut icon" type="image/png" href="assets/images/webicon.png" />
     <link rel="apple-touch-icon" href="assets/images/webicon.png" />
 
@@ -19,15 +27,14 @@
     <script src="lib/auth.js" defer></script>
     <script src="lib/script.js" defer></script>
     <script src="lib/store.js" defer></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
-
 
     <script src="lib/login.js" defer></script>
     <script src="lib/signup.js" defer></script>
     <script src="lib/order.js" defer></script>
     <script src="lib/orders.js" defer></script>
 
-    <!-- Third party icons from font awesome -->
+    <!-- Third party assets -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <script src="assets/js/74de4910c5.js" crossorigin="anonymous"></script>
 
     <!-- Style Assets -->
@@ -94,34 +101,43 @@
             <div onclick="signupFetch();" id="topSignupBtn" class="xButton creds"><i style="font-size:smaller;margin-right:0.5em;" class="fa-duotone fa-user-plus"></i> Sign-Up</div>
             <div onclick="loginFetch();" id="topLoginBtn" class="xButton creds" style="float:right;margin-right:0.5em;"><i style="font-size:smaller;margin-right:0.5em;" class="fa-duotone fa-key"></i> Login</div>
         </div>
-        <!-- 
 
-            This is where we load in html resources from assets/html/ 
-        
+
+        <!--
+            Main Container
         -->
-
         <div id="contentContainer">
 
         </div>
 
-        <!--
 
-            Store container | html is loaded in from lib/store.js
-            
+        <!--
+            Store Container
         -->
         <div id="storeContainer">
-
             <table style="width:100%;margin-bottom: 25px;user-select: none;border:0;" align="center" id="storeRows" border="0" cellpadding="0" cellspacing="0">
                 <tbody>
 
                 </tbody>
             </table>
-
         </div>
+
+
+        <!--
+            Product Page Container
+        -->
         <div id="storeItemContainer"></div>
 
+
+        <!--
+            Cart Container
+        -->
         <div id="cartContainer"></div>
 
+
+        <!--
+            Order History Container
+        -->
         <div id="orderContainer"></div>
     </div>
 </body>

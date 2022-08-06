@@ -1,3 +1,10 @@
+/**
+Team Terminus
+
+@authors
+    - Tony Wiedman
+*/
+
 let cacheName = 'terminus-v1';
 let cacheAssets = [
     'assets/css/style.css',
