@@ -14,7 +14,8 @@
 }
 
 #accountNav {
-    display: none;
+    /*display: none;*/
+    opacity: 0;
 }
 
 #backBtn {
