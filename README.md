@@ -1,8 +1,9 @@
 ![alt text](http://terminus-front.s3-website-us-east-1.amazonaws.com/assets/images/logo.png)
 ## Project 2 - Terminus Store Front End
 
+
 ## S3 Deployment
-[Terminus Store](http://terminus-front.s3-website-us-east-1.amazonaws.com/)
+http://terminus-front.s3-website-us-east-1.amazonaws.com/
 
 # Team Terminus
 * [name](https://github.com/username)
