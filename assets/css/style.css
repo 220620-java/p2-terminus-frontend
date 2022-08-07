@@ -982,7 +982,7 @@ button,
     background-color: #90f1606d;
     color: white;
     border: 2px solid #57ab3ca4;
-    margin: 1em;
+    margin-top: 1em;
     display: none;
     animation: shake 2s ease 0s 1 normal forwards;
 }
@@ -995,7 +995,7 @@ button,
     background-color: #60a6f175;
     color: white;
     border: 2px solid #387ca787;
-    margin: 1em;
+    margin-top: 1em;
     display: none;
     animation: shake 2s ease 0s 1 normal forwards;
 }
