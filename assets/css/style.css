@@ -731,6 +731,7 @@ p {
 .title {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    font-size: 1.5rem;
 }
 
 .productContainer:after {
@@ -898,7 +899,7 @@ button,
 }
 
 .edit,
-.creds,
+.cred,
 .new {
     margin: 1em;
 }
