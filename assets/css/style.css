@@ -555,7 +555,7 @@ p {
 }
 
 .singleProductImage {
-    box-shadow: inset 0px 0 14px 0px #00000040, 0 0 5px 2px #00000038;
+    box-shadow: 2px 2px 4px -1px #837f6f;
     border: 1px #2f4d70 solid;
     border-radius: 0.3em;
     margin-top: 1em;
@@ -568,12 +568,20 @@ p {
     background-repeat: no-repeat;
 }
 
+.closeBtn {
+    background-color: #e37266;
+}
+
+.closeBtn:hover {
+    opacity: 0.8;
+}
+
 .productImage {
-    box-shadow: inset 0px 0 14px 0px #00000040, 0 0 5px 2px #00000038;
+    box-shadow: 2px 2px 4px -1px #837f6f;
     border: 1px #2f4d70 solid;
     width: 100px;
     height: 100px;
-    border-radius: 0.5em;
+    border-radius: 0.3em;
     background-position: center center;
     background-color: #fff;
     padding: 0.5em;
