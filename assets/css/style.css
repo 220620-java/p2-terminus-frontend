@@ -907,17 +907,6 @@ button,
     font-size: 2rem;
 }
 
-.totalOrderPrice::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    margin-left: -1em;
-    bottom: 42px;
-    height: 1px;
-    width: 50%;
-    border-bottom: 1px dotted rgb(255, 255, 255);
-}
-
 .edit,
 .cred,
 .new {
