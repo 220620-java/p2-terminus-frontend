@@ -899,8 +899,9 @@ button,
 }
 
 .totalOrderPrice {
-    margin: 2em;
+    margin: 1em;
     margin-top: 2em;
+    margin-left: -1em;
     text-align: right;
     width: 100%;
     font-size: 2rem;
@@ -910,7 +911,8 @@ button,
     content: "";
     position: absolute;
     left: 50%;
-    bottom: 30px;
+    margin-left: -1em;
+    bottom: 42px;
     height: 1px;
     width: 50%;
     border-bottom: 1px dotted rgb(255, 255, 255);
