@@ -898,6 +898,22 @@ button,
     }
 }
 
+.totalOrderPrice {
+    margin: 1em;
+    margin-top: 2em;
+    text-align: right;
+    width: 100%
+}
+
+.totalOrderPrice::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    border-bottom: 1px dotted rgb(255, 255, 255);
+}
+
 .edit,
 .cred,
 .new {
