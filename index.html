@@ -95,6 +95,22 @@
         <div id="loading">
             Loading...
         </div>
+
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span id="alertMessage"></span>
+        </div>
+
+        <div class="succcess">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span id="successMessage"></span>
+        </div>
+
+        <div class="info">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span id="infoMessage"></span>
+        </div>
+
         <div id="buttons">
             <div onclick="main();" id="backBtn" class="xButton" style="display: inline-block;min-width: 113px;text-align: center;"><i style="margin-right:0.5em;" class="fa-duotone fa-house"></i> Home</div>
             <div onclick="getStore();" id="storeBtn" class="xButton" style="display: inline-block;min-width: 113px;text-align: center;"><i style="margin-right:0.5em;" class="fa-duotone fa-shop"></i></i> Store</div>
