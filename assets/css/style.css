@@ -962,28 +962,31 @@ button,
 }
 
 #alert {
-    padding: 20px;
-    background-color: #f16960b9;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    background-color: #f16a6085;
     color: white;
-    border: 2px solid #e84539;
+    border: 2px solid #c3564fc1;
     margin: 1em;
     display: none;
 }
 
 #success {
-    padding: 20px;
-    background-color: #90f160b9;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    background-color: #90f1606d;
     color: white;
-    border: 2px solid #65e839;
+    border: 2px solid #57ab3ca4;
     margin: 1em;
     display: none;
 }
 
 #info {
-    padding: 20px;
-    background-color: #60a6f1b9;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    background-color: #60a6f175;
     color: white;
-    border: 2px solid #39a5e8;
+    border: 2px solid #387ca787;
     margin: 1em;
     display: none;
 }
