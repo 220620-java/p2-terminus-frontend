@@ -912,3 +912,9 @@ button,
 #cartBtn {
     text-align: center;
 }
+
+#orderHistoryItemContainer {
+    margin-bottom: 2em;
+    width: 100%;
+    display: none;
+}
