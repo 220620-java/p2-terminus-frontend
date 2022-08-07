@@ -909,6 +909,12 @@ button,
     display: none;
 }
 
+#editAccountContainer {
+    margin-bottom: 2em;
+    width: 100%;
+    display: none;
+}
+
 #buttons {
     margin-top: 1em;
 }

@@ -30,6 +30,7 @@
 
     <script src="lib/login.js" defer></script>
     <script src="lib/signup.js" defer></script>
+    <script src="lib/account.js" defer></script>
     <script src="lib/order.js" defer></script>
     <script src="lib/orders.js" defer></script>
 
@@ -65,7 +66,7 @@
                     <a tabindex="0">My Account</a>
                     <ul class="submenu">
                         <li class="subitem"><a onclick="showOrders()" id="ordersNav" href="#">Order History</a></li>
-                        <li class="subitem"><a id="editAccountNav" href="#">Edit Information</a></li>
+                        <li class="subitem"><a id="editAccountNav" onclick="fetchAccountInfo()">Edit Information</a></li>
                         <li class="subitem"><a id="logOutNav" onclick="logOut();" href="#">Logout</a></li>
                     </ul>
                 </li>
@@ -141,9 +142,14 @@
         <div id="orderContainer"></div>
 
         <!--
-            Order History Container
+            Order History Item Container
         -->
         <div id="orderHistoryItemContainer"></div>
+
+        <!--
+            Edit Account Container
+        -->
+        <div id="editAccountContainer"></div>
     </div>
 </body>
 
