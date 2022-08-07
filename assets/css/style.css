@@ -897,6 +897,11 @@ button,
     }
 }
 
+.creds,
+.new {
+    margin: 1em;
+}
+
 #cartContainer {
     margin-bottom: 2em;
     width: 100%;
