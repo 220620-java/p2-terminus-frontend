@@ -569,11 +569,12 @@ p {
 }
 
 .closeBtn {
-    background-color: #e37266;
+    background-color: #9f3c3280 !important;
+    border: 1px solid #a75555ed !important;
 }
 
 .closeBtn:hover {
-    opacity: 0.8;
+    background-color: #cd4d4080 !important;
 }
 
 .productImage {
