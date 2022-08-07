@@ -15,6 +15,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    transition: all .3s ease;
 }
 
 #logoutNav {
@@ -65,7 +66,6 @@ input[type="email"] {
     border: 1px #2f4d70 solid;
     border-radius: 0.3em;
     outline: none;
-    transition: all ease 0.3s;
 }
 
 input[type="text"]:hover,
@@ -97,7 +97,6 @@ body {
 
 .logoHover {
     display: inline-block;
-    transition: .2s all;
 }
 
 .logoHover:active {
@@ -155,9 +154,7 @@ a {
     padding: 10px;
 }
 
-button {
-    transition: all .2s ease;
-}
+button {}
 
 button:hover {
     background-color: #2f4d70;
@@ -373,7 +370,6 @@ p {
     font-size: 0.9rem;
     float: right;
     margin-top: -35px;
-    transition: all .2s ease;
 }
 
 .removeBtn:hover {
@@ -390,7 +386,6 @@ p {
     width: 100%;
     margin-top: 1em;
     width: 100%;
-    transition: all ease 0.3s;
     animation: loadLeft .2s ease 0s 1 normal forwards;
 }
 
@@ -599,7 +594,6 @@ p {
     width: 100%;
     border: 1px #2f4d70 solid;
     margin-top: 1em;
-    transition: all ease 0.3s;
     animation: loadScale .2s ease 0s 1 normal forwards;
 }
 
@@ -612,7 +606,6 @@ p {
     width: 100%;
     border: 1px #2f4d70 solid;
     margin-top: 1em;
-    transition: all ease 0.3s;
     animation: loadScale .2s ease 0s 1 normal forwards;
 }
 
@@ -631,7 +624,6 @@ p {
     width: 100%;
     border: 1px #2f4d70 solid;
     margin-top: 1em;
-    transition: all ease 0.3s;
     animation: load .2s ease 0s 1 normal forwards;
 }
 
@@ -1017,7 +1009,6 @@ button,
     font-size: 22px;
     line-height: 20px;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 .closebtn:hover {
