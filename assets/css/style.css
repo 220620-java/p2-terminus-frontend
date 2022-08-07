@@ -356,9 +356,11 @@ p {
     border-radius: 0.3em;
     margin-top: 1em;
     animation: load .2s ease 0s 1 normal forwards;
+    transition: unset !important;
 }
 
 #cartContainer {
+    transition: unset !important;
     animation: load .2s ease 0s 1 normal forwards;
 }
 
@@ -374,6 +376,10 @@ p {
 
 .removeBtn:hover {
     opacity: 0.5 !important;
+}
+
+.singleOrderDiv {
+    transition: unset !important;
 }
 
 .productItem {
@@ -398,6 +404,7 @@ p {
     width: 100%;
     margin-top: 1em;
     width: 100%;
+    transition: unset !important;
     animation: loadLeft .2s ease 0s 1 normal forwards;
 }
 
@@ -425,6 +432,7 @@ p {
 }
 
 #orderContainer {
+    transition: unset !important;
     animation: leftLoad .2s ease 0s 1 normal forwards;
 }
 
@@ -460,6 +468,7 @@ p {
     margin-top: 1em;
     display: inline-grid;
     width: 100%;
+    transition: unset !important;
     animation: loadLeft .2s ease 0s 1 normal forwards;
 }
 
@@ -495,6 +504,7 @@ p {
     margin-top: 1em;
     display: inline-grid;
     width: 100%;
+    transition: unset !important;
     animation: loadLeft .2s ease 0s 1 normal forwards;
 }
 
@@ -606,6 +616,7 @@ p {
     width: 100%;
     border: 1px #2f4d70 solid;
     margin-top: 1em;
+    transition: unset !important;
     animation: loadScale .2s ease 0s 1 normal forwards;
 }
 
@@ -635,6 +646,7 @@ p {
     width: 100%;
     border: 1px #2f4d70 solid;
     margin-top: 1em;
+    transition: unset !important;
     animation: load .2s ease 0s 1 normal forwards;
 }
 
@@ -642,12 +654,14 @@ p {
     margin-top: 5em;
     margin-left: 4em;
     text-align: right;
+    transition: unset !important;
     animation: faderight 1s ease 0s 1 normal forwards;
 }
 
 .easyScreenBottom {
     /*margin-top: 3.2em;*/
     text-align: right;
+    transition: unset !important;
     animation: fadebottom 1s ease 0s 1 normal forwards;
 }
 
@@ -661,6 +675,7 @@ p {
     font-size: 7rem;
     margin: 1em;
     opacity: 0;
+    transition: unset !important;
     animation: fadein 1s ease 0.5s 1 normal forwards;
 }
 
@@ -674,6 +689,7 @@ p {
     font-size: 7rem;
     margin: 1em;
     opacity: 0;
+    transition: unset !important;
     animation: fadein 1s ease 0.8s 1 normal forwards;
 }
 
@@ -687,6 +703,7 @@ p {
     font-size: 7rem;
     margin: 1em;
     opacity: 0;
+    transition: unset !important;
     animation: fadein 1s ease 1.1s 1 normal forwards;
 }
 
@@ -983,6 +1000,7 @@ button,
     border: 2px solid #c3564fc1;
     margin-top: 1em;
     display: none;
+    transition: unset !important;
     animation: shake 2s ease 0s 1 normal forwards;
 }
 
@@ -996,6 +1014,7 @@ button,
     border: 2px solid #57ab3ca4;
     margin-top: 1em;
     display: none;
+    transition: unset !important;
     animation: shake 2s ease 0s 1 normal forwards;
 }
 
@@ -1009,6 +1028,7 @@ button,
     border: 2px solid #387ca787;
     margin-top: 1em;
     display: none;
+    transition: unset !important;
     animation: shake 2s ease 0s 1 normal forwards;
 }
 
