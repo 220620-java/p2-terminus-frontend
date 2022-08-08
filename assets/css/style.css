@@ -1005,7 +1005,7 @@ button,
     margin-top: 1em;
     display: none;
     transition: unset !important;
-    animation: shake 2s ease 0s 1 normal forwards;
+    animation: msg .5s ease 0s 1 normal forwards;
 }
 
 #success {
@@ -1019,7 +1019,7 @@ button,
     margin-top: 1em;
     display: none;
     transition: unset !important;
-    animation: shake 2s ease 0s 1 normal forwards;
+    animation: msg .5s ease 0s 1 normal forwards;
 }
 
 #info {
@@ -1033,7 +1033,7 @@ button,
     margin-top: 1em;
     display: none;
     transition: unset !important;
-    animation: shake 2s ease 0s 1 normal forwards;
+    animation: msg .5s ease 0s 1 normal forwards;
 }
 
 .closebtn {
@@ -1050,7 +1050,7 @@ button,
     color: black;
 }
 
-@keyframes shake {
+@keyframes msg {
     0% {
         opacity: 0;
         transform: translateY(-50px);
