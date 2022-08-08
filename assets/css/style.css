@@ -131,6 +131,7 @@ a {
     color: white;
     text-decoration: none;
     cursor: pointer;
+    transition: all .2s ease;
 }
 
 .menu,
@@ -181,10 +182,12 @@ button:hover {
 .menu li a {
     display: block;
     padding: 15px 5px;
+    transition: all .2s ease;
 }
 
 .menu li.subitem a {
     padding: 15px;
+    transition: all .2s ease;
 }
 
 .toggle {
@@ -239,6 +242,7 @@ button:hover {
 
 .subitem a {
     padding: 10px 15px;
+    transition: all .2s ease;
 }
 
 .submenu-active {
@@ -320,11 +324,13 @@ p {
     .menu li.button a {
         padding: 10px 20px;
         margin: 5px 0;
+        transition: all .2s ease;
     }
     .button a {
         background: rgb(25, 32, 43);
         border: 1px #2f4d70 solid;
         border-radius: 0.3em;
+        transition: all .2s ease;
     }
     .button.secondary {
         border: 0;
@@ -391,6 +397,7 @@ p {
     width: 100%;
     margin-top: 1em;
     width: 100%;
+    animation: loadLeft .2s ease 0s 1 normal forwards;
 }
 
 .cartItem {
@@ -431,7 +438,6 @@ p {
 }
 
 #orderContainer {
-    transition: unset !important;
     animation: leftLoad .2s ease 0s 1 normal forwards;
 }
 
@@ -776,6 +782,7 @@ button,
     user-select: none;
     display: block;
     cursor: pointer;
+    transition: all .2s ease;
 }
 
 #topLoginBtn {
