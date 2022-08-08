@@ -437,10 +437,6 @@ p {
     opacity: 1;
 }
 
-#orderContainer {
-    animation: leftLoad .2s ease 0s 1 normal forwards;
-}
-
 .mainDiv::before {
     position: absolute;
     content: "";
@@ -966,6 +962,7 @@ button,
     margin-bottom: 2em;
     width: 100%;
     display: none;
+    animation: load .2s ease 0s 1 normal forwards;
 }
 
 #editAccountContainer {
