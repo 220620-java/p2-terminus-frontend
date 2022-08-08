@@ -634,6 +634,7 @@ p {
     width: 100%;
     border: 1px #2f4d70 solid;
     margin-top: 1em;
+    animation: load .2s ease 0s 1 normal forwards;
 }
 
 .creds {
