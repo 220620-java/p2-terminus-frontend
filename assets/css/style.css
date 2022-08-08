@@ -1053,18 +1053,3 @@ button,
         transform: translateY(0);
     }
 }
-
-.msgOut {
-    animation: msg2 1s ease 0s 1 normal forwards;
-}
-
-@keyframes msg2 {
-    0% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-}
