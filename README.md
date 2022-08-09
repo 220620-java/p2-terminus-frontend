@@ -1,8 +1,8 @@
 ![alt text](http://terminus-front.s3-website-us-east-1.amazonaws.com/assets/images/logo.png)
 ## Project 2 - Terminus Store Back End
 
-*[Front End Repo](https://github.com/220620-java/p2-terminus-frontend)
-*[Back End Repo](https://github.com/220620-java/p2-terminus-backend)
+* [Front End Repo](https://github.com/220620-java/p2-terminus-frontend)
+* [Back End Repo](https://github.com/220620-java/p2-terminus-backend)
 
 ## Flow Chart
 ![Flow](https://i.ibb.co/GFnq16Q/image-4.png)
