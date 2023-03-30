@@ -1,4 +1,4 @@
-![alt text](http://terminus-front.s3-website-us-east-1.amazonaws.com/assets/images/logo.png)
+![alt text](https://github.com/220620-java/p2-terminus-frontend/blob/main/assets/images/logo.png?raw=true)
 ## Project 2 - Terminus Store Back End
 
 * [Front End Repo](https://github.com/220620-java/p2-terminus-frontend)
